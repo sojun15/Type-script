@@ -1,0 +1,12 @@
+var id;
+var fullName;
+var firstName;
+var lastName;
+var isStudent;
+id = 210215;
+firstName = 'sojun';
+lastName = ' chandra';
+isStudent = true;
+fullName = firstName.concat(lastName);
+console.log("Name : ".concat(fullName, ", Sid : ").concat(id, ", Student : ").concat(isStudent));
+console.log(fullName.split(" "));
